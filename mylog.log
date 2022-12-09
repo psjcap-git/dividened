@@ -1,0 +1,223 @@
+12:58:42.572 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - Starting DividenedApplication using Java 18.0.2 on DESKTOP-015VSR8 with PID 14148 (C:\Work\HomeWork\dividened\bin\main started by 박성준 in C:\Work\HomeWork\dividened)
+12:58:42.573 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - No active profile set, falling back to default profiles: default
+12:58:42.619 [ restartedMain ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:58:42.620 [ restartedMain ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:58:43.192 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:58:43.194 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:58:43.328 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 128 ms. Found 3 JPA repository interfaces.
+12:58:43.344 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:58:43.345 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+12:58:43.359 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.MemberRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+12:58:43.360 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.repository.CompanyRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+12:58:43.362 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.repository.DividenedRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+12:58:43.362 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+12:58:43.638 [ restartedMain ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7f0c1a8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:58:43.641 [ restartedMain ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:58:43.949 [ restartedMain ] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:58:43.963 [ restartedMain ] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+12:58:43.964 [ restartedMain ] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:58:43.965 [ restartedMain ] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+12:58:44.045 [ restartedMain ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:58:44.045 [ restartedMain ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1424 ms
+12:58:44.082 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:58:44.227 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:58:44.231 [ restartedMain ] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dividened'
+12:58:44.416 [ restartedMain ] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:58:44.456 [ restartedMain ] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+12:58:44.568 [ restartedMain ] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:58:44.661 [ restartedMain ] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+12:58:45.111 [ restartedMain ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:58:45.117 [ restartedMain ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:58:45.536 [ restartedMain ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:58:45.613 [ restartedMain ] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compnanyController' defined in file [C:\Work\HomeWork\dividened\bin\main\com\zerobase\dividened\web\CompnanyController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.cache.RedisCacheManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+12:58:45.615 [ restartedMain ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:58:45.828 [ restartedMain ] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+12:58:45.829 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:58:45.830 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12:58:45.833 [ restartedMain ] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:58:45.843 [ restartedMain ] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12:58:45.859 [ restartedMain ] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.zerobase.dividened.web.CompnanyController required a bean of type 'org.springframework.data.redis.cache.RedisCacheManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.cache.RedisCacheManager' in your configuration.
+
+12:58:57.179 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - Starting DividenedApplication using Java 18.0.2 on DESKTOP-015VSR8 with PID 15364 (C:\Work\HomeWork\dividened\bin\main started by 박성준 in C:\Work\HomeWork\dividened)
+12:58:57.180 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - No active profile set, falling back to default profiles: default
+12:58:57.230 [ restartedMain ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:58:57.230 [ restartedMain ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:58:57.825 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:58:57.827 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:58:57.956 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 3 JPA repository interfaces.
+12:58:57.971 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:58:57.972 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+12:58:57.986 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.MemberRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+12:58:57.988 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.repository.CompanyRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+12:58:57.990 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.repository.DividenedRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+12:58:57.990 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+12:58:58.271 [ restartedMain ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3afb2a30' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:58:58.276 [ restartedMain ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:58:58.586 [ restartedMain ] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:58:58.601 [ restartedMain ] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+12:58:58.602 [ restartedMain ] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:58:58.603 [ restartedMain ] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+12:58:58.679 [ restartedMain ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:58:58.680 [ restartedMain ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1449 ms
+12:58:58.719 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:58:58.867 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:58:58.872 [ restartedMain ] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dividened'
+12:58:59.064 [ restartedMain ] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:58:59.107 [ restartedMain ] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+12:58:59.220 [ restartedMain ] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:58:59.318 [ restartedMain ] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+12:58:59.794 [ restartedMain ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:58:59.801 [ restartedMain ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:59:00.202 [ restartedMain ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:59:00.277 [ restartedMain ] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'compnanyController' defined in file [C:\Work\HomeWork\dividened\bin\main\com\zerobase\dividened\web\CompnanyController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.cache.RedisCacheManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+12:59:00.280 [ restartedMain ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:59:00.493 [ restartedMain ] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+12:59:00.494 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:59:00.496 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12:59:00.498 [ restartedMain ] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:59:00.507 [ restartedMain ] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12:59:00.524 [ restartedMain ] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.zerobase.dividened.web.CompnanyController required a bean of type 'org.springframework.data.redis.cache.RedisCacheManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.cache.RedisCacheManager' in your configuration.
+
+13:00:03.509 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - Starting DividenedApplication using Java 18.0.2 on DESKTOP-015VSR8 with PID 3284 (C:\Work\HomeWork\dividened\bin\main started by 박성준 in C:\Work\HomeWork\dividened)
+13:00:03.511 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - No active profile set, falling back to default profiles: default
+13:00:03.563 [ restartedMain ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:00:03.563 [ restartedMain ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:00:04.148 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:00:04.149 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:00:04.274 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 119 ms. Found 3 JPA repository interfaces.
+13:00:04.289 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:00:04.290 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:00:04.305 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.MemberRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+13:00:04.306 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.repository.CompanyRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+13:00:04.308 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.repository.DividenedRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+13:00:04.309 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+13:00:04.606 [ restartedMain ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1fb58410' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:00:04.610 [ restartedMain ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:00:04.911 [ restartedMain ] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:00:04.925 [ restartedMain ] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:00:04.926 [ restartedMain ] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:00:04.926 [ restartedMain ] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+13:00:05.001 [ restartedMain ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:00:05.002 [ restartedMain ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1438 ms
+13:00:05.043 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:00:05.188 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:00:05.193 [ restartedMain ] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dividened'
+13:00:05.469 [ restartedMain ] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:00:05.520 [ restartedMain ] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:00:05.637 [ restartedMain ] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:00:05.732 [ restartedMain ] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:00:06.197 [ restartedMain ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:00:06.203 [ restartedMain ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:00:06.619 [ restartedMain ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:00:07.055 [ restartedMain ] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/h2-console/**'] with []
+13:00:07.102 [ restartedMain ] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5951e95e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bb242ec, org.springframework.security.web.header.HeaderWriterFilter@5b7ea721, org.springframework.security.web.authentication.logout.LogoutFilter@7027454d, com.zerobase.dividened.security.JwtAuthenticationFilter@26e4b08c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ebd5be1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63fb6900, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ed33600, org.springframework.security.web.session.SessionManagementFilter@65c61584, org.springframework.security.web.access.ExceptionTranslationFilter@7b7bbe10, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76e20d6a]
+13:00:07.723 [ restartedMain ] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:00:07.743 [ restartedMain ] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:00:07.765 [ restartedMain ] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:00:07.780 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - Started DividenedApplication in 4.651 seconds (JVM running for 5.194)
+13:14:37.277 [ Thread-6 ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:14:37.482 [ Thread-6 ] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:14:37.483 [ Thread-6 ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:14:37.485 [ Thread-6 ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:14:37.592 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - Starting DividenedApplication using Java 18.0.2 on DESKTOP-015VSR8 with PID 3284 (C:\Work\HomeWork\dividened\bin\main started by 박성준 in C:\Work\HomeWork\dividened)
+13:14:37.593 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - No active profile set, falling back to default profiles: default
+13:14:37.762 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:14:37.762 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:14:37.788 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+13:14:37.791 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:14:37.791 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:14:37.797 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.MemberRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+13:14:37.798 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.repository.CompanyRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+13:14:37.799 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.repository.DividenedRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+13:14:37.799 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+13:14:37.843 [ restartedMain ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2fb5aa47' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:37.845 [ restartedMain ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:37.878 [ restartedMain ] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:14:37.879 [ restartedMain ] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:14:37.879 [ restartedMain ] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:14:37.880 [ restartedMain ] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+13:14:37.902 [ restartedMain ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:14:37.902 [ restartedMain ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 306 ms
+13:14:37.912 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+13:14:37.915 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+13:14:37.915 [ restartedMain ] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dividened'
+13:14:37.939 [ restartedMain ] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:14:37.945 [ restartedMain ] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:14:37.991 [ restartedMain ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:14:37.992 [ restartedMain ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:14:38.097 [ restartedMain ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:14:38.133 [ restartedMain ] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/h2-console/**'] with []
+13:14:38.138 [ restartedMain ] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@271a279, org.springframework.security.web.context.SecurityContextPersistenceFilter@7191428, org.springframework.security.web.header.HeaderWriterFilter@677177d9, org.springframework.security.web.authentication.logout.LogoutFilter@41ed0da7, com.zerobase.dividened.security.JwtAuthenticationFilter@54a27946, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c0dec71, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ae9196, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40e20bc5, org.springframework.security.web.session.SessionManagementFilter@2ce45bc0, org.springframework.security.web.access.ExceptionTranslationFilter@78027fad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@48203c5]
+13:14:38.249 [ restartedMain ] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:14:38.257 [ restartedMain ] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:14:38.259 [ restartedMain ] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:14:38.263 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - Started DividenedApplication in 0.699 seconds (JVM running for 875.677)
+13:14:38.265 [ restartedMain ] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+13:14:43.848 [ Thread-8 ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:14:44.049 [ Thread-8 ] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:14:44.050 [ Thread-8 ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+13:14:44.050 [ Thread-8 ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+13:14:44.110 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - Starting DividenedApplication using Java 18.0.2 on DESKTOP-015VSR8 with PID 3284 (C:\Work\HomeWork\dividened\bin\main started by 박성준 in C:\Work\HomeWork\dividened)
+13:14:44.110 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - No active profile set, falling back to default profiles: default
+13:14:44.295 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:14:44.295 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:14:44.320 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+13:14:44.322 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:14:44.323 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:14:44.329 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.MemberRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+13:14:44.330 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.repository.CompanyRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+13:14:44.331 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.dividened.persist.repository.DividenedRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+13:14:44.331 [ restartedMain ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+13:14:44.371 [ restartedMain ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@21249fdc' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:44.372 [ restartedMain ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:14:44.398 [ restartedMain ] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:14:44.398 [ restartedMain ] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:14:44.399 [ restartedMain ] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:14:44.400 [ restartedMain ] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+13:14:44.419 [ restartedMain ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:14:44.420 [ restartedMain ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 309 ms
+13:14:44.429 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+13:14:44.431 [ restartedMain ] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+13:14:44.432 [ restartedMain ] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dividened'
+13:14:44.454 [ restartedMain ] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:14:44.461 [ restartedMain ] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:14:44.500 [ restartedMain ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:14:44.500 [ restartedMain ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:14:44.595 [ restartedMain ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:14:44.628 [ restartedMain ] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/h2-console/**'] with []
+13:14:44.636 [ restartedMain ] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c981b7d, org.springframework.security.web.context.SecurityContextPersistenceFilter@50f1c1bf, org.springframework.security.web.header.HeaderWriterFilter@7335613, org.springframework.security.web.authentication.logout.LogoutFilter@7031ee9e, com.zerobase.dividened.security.JwtAuthenticationFilter@70acc4f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f3fdf18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12218322, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4881c25b, org.springframework.security.web.session.SessionManagementFilter@2e42598d, org.springframework.security.web.access.ExceptionTranslationFilter@383ce5bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fb25cf6]
+13:14:44.705 [ restartedMain ] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:14:44.712 [ restartedMain ] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:14:44.713 [ restartedMain ] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:14:44.716 [ restartedMain ] INFO  c.z.dividened.DividenedApplication - Started DividenedApplication in 0.633 seconds (JVM running for 882.13)
+13:14:44.718 [ restartedMain ] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

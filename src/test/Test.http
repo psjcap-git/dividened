@@ -1,0 +1,30 @@
+###
+POST http://localhost:8080/company HTTP/1.1
+Content-Type: application/json
+
+{
+    "ticker" : "O" 
+}
+
+###
+POST http://localhost:8080/company HTTP/1.1
+Content-Type: application/json
+
+{
+    "ticker" : "MMM" 
+}
+
+###
+POST http://localhost:8080/company HTTP/1.1
+Content-Type: application/json
+
+{
+    "ticker" : "COKE" 
+}
+
+
+###
+GET http://localhost:8080/company?size=2&page=1 HTTP/1.1
+
+###
+GET http://localhost:8080/finance/dividened/Realty Income Corporation HTTP/1.1
